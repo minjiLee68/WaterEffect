@@ -18,10 +18,15 @@
 		0A1D2921282E4CF7008F83A7 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D2920282E4CF7008F83A7 /* Alert.swift */; };
 		0A1D2923282E7219008F83A7 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D2922282E7219008F83A7 /* AddAlertViewController.swift */; };
 		0A1D2925282E83C3008F83A7 /* UNNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D2924282E83C3008F83A7 /* UNNotificationCenter.swift */; };
+		0AEE9AA828321B1C0057A39D /* WaterCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE9AA728321B1C0057A39D /* WaterCheckViewController.swift */; };
+		0AEE9AAA28321B4A0057A39D /* AutoBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE9AA928321B4A0057A39D /* AutoBannerViewController.swift */; };
+		0AEE9AAC28321CD60057A39D /* WaterDrinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE9AAB28321CD60057A39D /* WaterDrinkViewModel.swift */; };
+		0AEE9AB0283247470057A39D /* WaterDrinkCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE9AAF283247470057A39D /* WaterDrinkCheckViewController.swift */; };
+		0AEE9AB228325FB40057A39D /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE9AB128325FB40057A39D /* Drinks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A1D2903282E46FE008F83A7 /* TimeToTakeMedicine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeToTakeMedicine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1D2903282E46FE008F83A7 /* WaterEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1D2906282E46FE008F83A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A1D2908282E46FE008F83A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0A1D290D282E46FE008F83A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,6 +39,11 @@
 		0A1D2920282E4CF7008F83A7 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		0A1D2922282E7219008F83A7 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
 		0A1D2924282E83C3008F83A7 /* UNNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNNotificationCenter.swift; sourceTree = "<group>"; };
+		0AEE9AA728321B1C0057A39D /* WaterCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCheckViewController.swift; sourceTree = "<group>"; };
+		0AEE9AA928321B4A0057A39D /* AutoBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoBannerViewController.swift; sourceTree = "<group>"; };
+		0AEE9AAB28321CD60057A39D /* WaterDrinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDrinkViewModel.swift; sourceTree = "<group>"; };
+		0AEE9AAF283247470057A39D /* WaterDrinkCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDrinkCheckViewController.swift; sourceTree = "<group>"; };
+		0AEE9AB128325FB40057A39D /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +60,7 @@
 		0A1D28FA282E46FE008F83A7 = {
 			isa = PBXGroup;
 			children = (
-				0A1D2905282E46FE008F83A7 /* TimeToTakeMedicine */,
+				0A1D2905282E46FE008F83A7 /* WaterEffect */,
 				0A1D2904282E46FE008F83A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,17 +68,22 @@
 		0A1D2904282E46FE008F83A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A1D2903282E46FE008F83A7 /* TimeToTakeMedicine.app */,
+				0A1D2903282E46FE008F83A7 /* WaterEffect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A1D2905282E46FE008F83A7 /* TimeToTakeMedicine */ = {
+		0A1D2905282E46FE008F83A7 /* WaterEffect */ = {
 			isa = PBXGroup;
 			children = (
 				0A1D2906282E46FE008F83A7 /* AppDelegate.swift */,
 				0A1D2908282E46FE008F83A7 /* SceneDelegate.swift */,
 				0A1D290C282E46FE008F83A7 /* Main.storyboard */,
+				0AEE9AAF283247470057A39D /* WaterDrinkCheckViewController.swift */,
+				0AEE9AB128325FB40057A39D /* Drinks.swift */,
+				0AEE9AAB28321CD60057A39D /* WaterDrinkViewModel.swift */,
+				0AEE9AA928321B4A0057A39D /* AutoBannerViewController.swift */,
+				0AEE9AA728321B1C0057A39D /* WaterCheckViewController.swift */,
 				0A1D2922282E7219008F83A7 /* AddAlertViewController.swift */,
 				0A1D291C282E4AF9008F83A7 /* AlertListCell.swift */,
 				0A1D291D282E4AF9008F83A7 /* AlertListCell.xib */,
@@ -79,15 +94,15 @@
 				0A1D2911282E4700008F83A7 /* LaunchScreen.storyboard */,
 				0A1D2914282E4700008F83A7 /* Info.plist */,
 			);
-			path = TimeToTakeMedicine;
+			path = WaterEffect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A1D2902282E46FE008F83A7 /* TimeToTakeMedicine */ = {
+		0A1D2902282E46FE008F83A7 /* WaterEffect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A1D2917282E4700008F83A7 /* Build configuration list for PBXNativeTarget "TimeToTakeMedicine" */;
+			buildConfigurationList = 0A1D2917282E4700008F83A7 /* Build configuration list for PBXNativeTarget "WaterEffect" */;
 			buildPhases = (
 				0A1D28FF282E46FE008F83A7 /* Sources */,
 				0A1D2900282E46FE008F83A7 /* Frameworks */,
@@ -97,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = TimeToTakeMedicine;
+			name = WaterEffect;
 			productName = TimeToTakeMedicine;
-			productReference = 0A1D2903282E46FE008F83A7 /* TimeToTakeMedicine.app */;
+			productReference = 0A1D2903282E46FE008F83A7 /* WaterEffect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0A1D28FE282E46FE008F83A7 /* Build configuration list for PBXProject "TimeToTakeMedicine" */;
+			buildConfigurationList = 0A1D28FE282E46FE008F83A7 /* Build configuration list for PBXProject "WaterEffect" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A1D2902282E46FE008F83A7 /* TimeToTakeMedicine */,
+				0A1D2902282E46FE008F83A7 /* WaterEffect */,
 			);
 		};
 /* End PBXProject section */
@@ -155,7 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A1D2907282E46FE008F83A7 /* AppDelegate.swift in Sources */,
+				0AEE9AA828321B1C0057A39D /* WaterCheckViewController.swift in Sources */,
 				0A1D2909282E46FE008F83A7 /* SceneDelegate.swift in Sources */,
+				0AEE9AAC28321CD60057A39D /* WaterDrinkViewModel.swift in Sources */,
+				0AEE9AB0283247470057A39D /* WaterDrinkCheckViewController.swift in Sources */,
+				0AEE9AAA28321B4A0057A39D /* AutoBannerViewController.swift in Sources */,
+				0AEE9AB228325FB40057A39D /* Drinks.swift in Sources */,
 				0A1D291E282E4AF9008F83A7 /* AlertListCell.swift in Sources */,
 				0A1D2921282E4CF7008F83A7 /* Alert.swift in Sources */,
 				0A1D291B282E4903008F83A7 /* AlertListViewController.swift in Sources */,
@@ -309,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4JR7PKLFY2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TimeToTakeMedicine/Info.plist;
+				INFOPLIST_FILE = WaterEffect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.minji.TimeToTakeMedicine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minji.WaterEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4JR7PKLFY2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TimeToTakeMedicine/Info.plist;
+				INFOPLIST_FILE = WaterEffect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -348,7 +368,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.minji.TimeToTakeMedicine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minji.WaterEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -359,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A1D28FE282E46FE008F83A7 /* Build configuration list for PBXProject "TimeToTakeMedicine" */ = {
+		0A1D28FE282E46FE008F83A7 /* Build configuration list for PBXProject "WaterEffect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A1D2915282E4700008F83A7 /* Debug */,
@@ -368,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A1D2917282E4700008F83A7 /* Build configuration list for PBXNativeTarget "TimeToTakeMedicine" */ = {
+		0A1D2917282E4700008F83A7 /* Build configuration list for PBXNativeTarget "WaterEffect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A1D2918282E4700008F83A7 /* Debug */,
